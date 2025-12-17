@@ -30,19 +30,33 @@ function numero (data) { // data es el objeto que manda el frontend. tiene la in
         return true; // devuelve true al frontend
     } // cuando el backend recibe el evento modificarcolleccion, se ejecuta la funcion numero, que si data es true, lee el archivo de los ids en teeexto, y lo convierte de json a array y lo guarda en la variable contenido. luego la funcion push guarda en ls variable contenido que contiene el array del archivo de los ids el id que selecciono el frontend. luego se vuelve a convertir el archivo de los ids de array a json y se fuarda en la variable contenido, y luego esta variable se guarda en el archivo de los ids. 
     else {
-        let contenido = JSON.parse(fs.readFileSync("../data/idcoleccion.json","utf-8")); // lee el archivo de los ids lo convierte a array y lo guarda en la variable contenido.
+        else {
+    let contenido = JSON.parse(
+        fs.readFileSync("../data/idcoleccion.json", "utf-8")
+    ); 
+    // contenido es un array con todos los ids
 
+    let resultado = [];
 
-        
+    contenido.forEach(id => {
+        if (id !== data.id) {
+            resultado.push(id);
+        }
+    }); // for each recorre el array de los ids (contenido) y 
+    // recorre el array y guarda en resultado
+    // todos los ids menos el que llegó del frontend
+
+    let idcoleccionjson = JSON.stringify(resultado, null, 2);
+    // convierte el array resultado a JSON (texto)
+
+    fs.writeFileSync("../data/idcoleccion.json", idcoleccionjson);
+    // guarda el archivo actualizado sin ese id
+
+    return true;
+    // devuelve false al frontend indicando que se quitó de la colección
+}
+
     
-            let idcoleccionjson = JSON.stringify(resultado, null, 2); // lo vuelvo a convertir en json porque no se agrego ningun id
-            fs.writeFileSync("../data/idcoleccion.json", idcoleccionjson); // guardo la variable id coleccionjson con el archivo que no agregue ningun id en el archivo de los ids
-    
-
-
-        return false;
-
-    }
 }
 
 subscribeGETEvent("obrasColección", devolverColeccion);

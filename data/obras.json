@@ -1,0 +1,506 @@
+[
+  {
+    "id": 1,
+    "título": "Dos Anjos",
+    "año": 1915,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/10-02-Dos%20Anjos.jpg"
+  },
+  {
+    "id": 2,
+    "título": "Entierro",
+    "año": 1915,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/10-03-Entierro.jpg"
+  },
+  {
+    "id": 3,
+    "título": "Ofrenda Cuori",
+    "año": 1915,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/10-08-Ofrenda%20Cuori.jpg"
+  },
+  {
+    "id": 4,
+    "título": "Paisaje Bunti (2)",
+    "año": 1916,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/10-04-Paisaje%20Bunti.jpg"
+  },
+  {
+    "id": 5,
+    "título": "Man Tree",
+    "año": 1916,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/10-07-Man%20Tree.jpg"
+  },
+  {
+    "id": 6,
+    "título": "San Francisco",
+    "año": 1917,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/10-01-San%20Francisco.jpg"
+  },
+  {
+    "id": 7,
+    "título": "Penitentes",
+    "año": 1917,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/10-05-Penitentes.jpg"
+  },
+  {
+    "id": 8,
+    "título": "Dos",
+    "año": 1918,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/10-06-Dos.jpg"
+  },
+  {
+    "id": 9,
+    "título": "Otros troncos",
+    "año": 1919,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/10-09-Otros%20troncos.jpg"
+  },
+  {
+    "id": 10,
+    "título": "Reptil que sube",
+    "año": 1920,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/20-15-Reptil.jpg"
+  },
+  {
+    "id": 11,
+    "título": "Jesús Crucifio",
+    "año": 1920,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/20-10-Jesus%20Crucifio.jpg"
+  },
+  {
+    "id": 12,
+    "título": "Alma Dás Pirámides",
+    "año": 1921,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/20-13-Alma%20das%20piramies.jpg"
+  },
+  {
+    "id": 13,
+    "título": "Lago Monti",
+    "año": 1921,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/20-03-Lago%20Monti.jpg"
+  },
+  {
+    "id": 14,
+    "título": "Las Cuatro",
+    "año": 1922,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/20-11-Los%20cuatro.jpg"
+  },
+  {
+    "id": 15,
+    "título": "Casas en Alto",
+    "año": 1922,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/20-16-Casas%20en%20alto.jpg"
+  },
+  {
+    "id": 16,
+    "título": "Dos Casas",
+    "año": 1922,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/20-17-Dos%20casas.jpg"
+  },
+  {
+    "id": 17,
+    "título": "La Mesma Orienta",
+    "año": 1922,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/20-14-La%20mesma%20orienta.jpg"
+  },
+  {
+    "id": 18,
+    "título": "Pegaso de Sol",
+    "año": 1920,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/20-12-Pegaso%20del%20sol.jpg"
+  },
+  {
+    "id": 19,
+    "título": "Juzgue",
+    "año": 1923,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/20-08-Juzgue.jpg"
+  },
+  {
+    "id": 20,
+    "título": "Tú y Yo",
+    "año": 1923,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/20-07-Tu%20y%20yo.jpg"
+  },
+  {
+    "id": 21,
+    "título": "Ña Diáfana",
+    "año": 1923,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/20-06-na%20diafana.jpg"
+  },
+  {
+    "id": 22,
+    "título": "Dos Parejas",
+    "año": 1924,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/20-09-Dos%20parejas.jpg"
+  },
+  {
+    "id": 23,
+    "título": "San Danza (1)",
+    "año": 1925,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/20-04-San%20Danza.jpg"
+  },
+  {
+    "id": 24,
+    "título": "Drago",
+    "año": 1927,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/20-01-Drago.jpg"
+  },
+  {
+    "id": 25,
+    "título": "Puerto Azul",
+    "año": 1927,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/20-05-Puerto%20Azul.jpg"
+  },
+  {
+    "id": 26,
+    "título": "Soto Con Trio",
+    "año": 1930,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/30-07-Soto%20con%20trio.jpg"
+  },
+  {
+    "id": 27,
+    "título": "Palacio Almi",
+    "año": 1932,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/30-01-Palacio%20Almi.jpg"
+  },
+  {
+    "id": 28,
+    "título": "Un Yogui",
+    "año": 1932,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/30-04-Un%20yogui.jpg"
+  },
+  {
+    "id": 29,
+    "título": "Rocas Lagui",
+    "año": 1933,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/30-05-Rocas%20Lagui.jpg"
+  },
+  {
+    "id": 30,
+    "título": "Puerta del Este",
+    "año": 1935,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/30-09-Puerta%20del%20este.jpg"
+  },
+  {
+    "id": 31,
+    "título": "Mestizos de Avión y Gente",
+    "año": 1936,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/30-10-Mestizos%20de%20avion%20y%20gente.jpg"
+  },
+  {
+    "id": 32,
+    "título": "Vuel Villa",
+    "año": 1936,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/30-02-Vuel%20Villa.jpg"
+  },
+  {
+    "id": 33,
+    "título": "Ciuda Lagui",
+    "año": 1939,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/30-06-Ciudad%20Lagui.jpg"
+  },
+  {
+    "id": 34,
+    "título": "Marina",
+    "año": 1939,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/30-03-Marina.jpg"
+  },
+  {
+    "id": 35,
+    "título": "Grafía Antiga",
+    "año": 1939,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/30-08-Grafia%20antigua.jpg"
+  },
+  {
+    "id": 36,
+    "título": "Fiordo",
+    "año": 1943,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/40-10-Fiordo.jpg"
+  },
+  {
+    "id": 37,
+    "título": "Casi Plantas",
+    "año": 1946,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/40-11-Casi%20Plantas.jpg"
+  },
+  {
+    "id": 38,
+    "título": "Celdas Difíciles",
+    "año": 1948,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/40-03-Celdas%20Dificiles.jpg"
+  },
+  {
+    "id": 39,
+    "título": "Muros Biombos",
+    "año": 1948,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/40-05-Muros%20Biombos.jpg"
+  },
+  {
+    "id": 40,
+    "título": "Barreras Melódicas",
+    "año": 1948,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/40-07-Barreras%20Melodicas.jpg"
+  },
+  {
+    "id": 41,
+    "título": "Trece San Mástiles",
+    "año": 1949,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/40-04-Trece%20San%20Mastiles.jpg"
+  },
+  {
+    "id": 42,
+    "título": "Plurentes",
+    "año": 1949,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/40-12-Plurentes.jpg"
+  },
+  {
+    "id": 43,
+    "título": "Zodíaco",
+    "año": 1949,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/40-01-Zodiaco.jpg"
+  },
+  {
+    "id": 44,
+    "título": "Zodíaco Titi",
+    "año": 1949,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/40-02-Zodiaco%20Titi.jpg"
+  },
+  {
+    "id": 45,
+    "título": "Cinco Melodias",
+    "año": 1949,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/40-08-Cinco%20Melodias.jpg"
+  },
+  {
+    "id": 46,
+    "título": "Santos y Guardianes",
+    "año": 1949,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/40-06-Santos%20y%20Guardianes.jpg"
+  },
+  {
+    "id": 47,
+    "título": "País Rojo Teti",
+    "año": 1949,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/40-13-Pais%20Rojo%20Teti.jpg"
+  },
+  {
+    "id": 48,
+    "título": "Rua Ruini",
+    "año": 1949,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/40-09-Rua%20Ruini.jpg"
+  },
+  {
+    "id": 49,
+    "título": "Ruinas",
+    "año": 1950,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/50-03-Ruinas.jpg"
+  },
+  {
+    "id": 50,
+    "título": "Coral Bach (música)",
+    "año": 1950,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/50-05-Coral%20Bach.jpg"
+  },
+  {
+    "id": 51,
+    "título": "Noche de Lunas",
+    "año": 1950,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/50-18-Noche%20de%20Lunas.jpg"
+  },
+  {
+    "id": 52,
+    "título": "Nueve San Mástiles",
+    "año": 1951,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/50-10-Nueve%20San%20Mastiles.jpg"
+  },
+  {
+    "id": 53,
+    "título": "Retrato Sagitaria",
+    "año": 1951,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/50-12-Retrato%20Sagitaria.jpg"
+  },
+  {
+    "id": 54,
+    "título": "Retrato Horóscopo de Miguel Angel Asturias",
+    "año": 1952,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/50-13-Retrato%20Horoscopo%20de%20Miguel%20Angel%20Asturias.jpg"
+  },
+  {
+    "id": 55,
+    "título": "Desarrollo del Yi Ching",
+    "año": 1953,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/50-06-Desarrollo%20del%20Yi%20Ching.jpg"
+  },
+  {
+    "id": 56,
+    "título": "Un Castillo de Troncos",
+    "año": 1953,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/50-07-Un%20castillo%20de%20troncos.jpg"
+  },
+  {
+    "id": 57,
+    "título": "Barrio",
+    "año": 1953,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/50-15-Barrio.jpg"
+  },
+  {
+    "id": 58,
+    "título": "Máscaras Planetarias",
+    "año": 1953,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/50-08-Mascaras%20Planetarias.jpg"
+  },
+  {
+    "id": 59,
+    "título": "Signos Zodiacales Pares",
+    "año": 1953,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/50-11-Signos%20Zodiacales%20Pares.jpg"
+  },
+  {
+    "id": 60,
+    "título": "Signos Zodiacales Impares",
+    "año": 1953,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/50-09-Signos%20Zodiacales%20Impares.jpg"
+  },
+  {
+    "id": 61,
+    "título": "Marte, Saturno",
+    "año": 1953,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/50-01-Marte%20Saturno.jpg"
+  },
+  {
+    "id": 62,
+    "título": "Zodíaco",
+    "año": 1953,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/50-04-Zodiaco.jpg"
+  },
+  {
+    "id": 63,
+    "título": "Símbolos",
+    "año": 1954,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/50-02-Simbolos.jpg"
+  },
+  {
+    "id": 64,
+    "título": "Pan Arbol",
+    "año": 1954,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/50-16-Pan%20Arbol.jpg"
+  },
+  {
+    "id": 65,
+    "título": "Gestación de Jesus",
+    "año": 1954,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/50-14-Gestacion%20de%20Jesus.jpg"
+  },
+  {
+    "id": 66,
+    "título": "Proyecto Fachada Delta",
+    "año": 1954,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/50-20-Proyecto%20Fachada%20Delta.jpg"
+  },
+  {
+    "id": 67,
+    "título": "Pan Arbol",
+    "año": 1954,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/50-17-Pan%20Arbol.jpg"
+  },
+  {
+    "id": 68,
+    "título": "Cruz",
+    "año": 1954,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/40-15-Cruz.jpg"
+  },
+  {
+    "id": 69,
+    "título": "Pan Altar Mundi",
+    "año": 1954,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/50-21-Pan%20Altar%20Mundi.jpg"
+  },
+  {
+    "id": 70,
+    "título": "Pan Altar",
+    "año": 1954,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/40-14-Pan%20Altar.jpg"
+  },
+  {
+    "id": 71,
+    "título": "Planetas y Regentes",
+    "año": 1955,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/50-19-Planetas%20Regentes.jpg"
+  },
+  {
+    "id": 72,
+    "título": "Rótulo",
+    "año": 1960,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/60-12-Rotulo.jpg"
+  },
+  {
+    "id": 73,
+    "título": "Texto Cívico",
+    "año": 1960,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/60-11-Texto%20Civico.jpg"
+  },
+  {
+    "id": 74,
+    "título": "Grafía",
+    "año": 1961,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/60-13-Grafia.jpg"
+  },
+  {
+    "id": 75,
+    "título": "Gaili Mui Wile...",
+    "año": 1962,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/60-01-Gaili%20Mui%20Wile.jpg"
+  },
+  {
+    "id": 76,
+    "título": "Domus Aúrea, Ianua Coeli Dios Plen",
+    "año": 1962,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/60-02-Domus%20Aurea.jpg"
+  },
+  {
+    "id": 77,
+    "título": "Lu Diablo sabe piu viejo, ke por Diablo",
+    "año": 1962,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/60-03-Lu%20Diablo%20sabe%20piu%20viejo,%20ke%20por%20Diablo.jpg"
+  },
+  {
+    "id": 78,
+    "título": "Mi pray per to min guardianjo",
+    "año": 1962,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/60-04-Mi%20pray%20per%20to%20min%20guardianjo.jpg"
+  },
+  {
+    "id": 79,
+    "título": "Yu Pardone...",
+    "año": 1962,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/60-05-Ya%20pardone.jpg"
+  },
+  {
+    "id": 80,
+    "título": "Donia Bona Micaela",
+    "año": 1962,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/60-06-Donia%20Bona%20Micaela.jpg"
+  },
+  {
+    "id": 81,
+    "título": "Min main ya",
+    "año": 1962,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/60-07-Min%20main%20ya.jpg"
+  },
+  {
+    "id": 82,
+    "título": "Kon mil per prayn to yu",
+    "año": 1962,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/60-08-Kon%20mil%20per%20prayn%20to%20yu.jpg"
+  },
+  {
+    "id": 83,
+    "título": "Mui wile con yu",
+    "año": 1962,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/60-09-Mui%20wile%20con%20yu.jpg"
+  },
+  {
+    "id": 84,
+    "título": "Hia tiu pre ver",
+    "año": 1962,
+    "link": "https://www.xulsolar.org.ar/img/coleccion/60-10-Hia%20tiu%20pre%20ver.jpg"
+  }
+]

@@ -1,0 +1,199 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --chestnut: #a0522d;
+  --chocolate: #d2691e;
+  --saddle-brown: #8b4513;
+  --peru: #cd853f;
+  --peach: #ffe4b5;
+}
+@font-face {
+  font-family: "Museo-700";
+  src: url("fonts/museo/Museo700-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Museo-300";
+  src: url("fonts/museo/Museo300-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sinkin-Sans-Regular";
+  src: url("fonts/sinkin-sans/SinkinSans-400Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sinkin-Sans-SemiBold";
+  src: url("fonts/sinkin-sans/SinkinSans-600SemiBold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: var(--peach);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 48px;
+  background-color: var(--chestnut);
+}
+
+h1 {
+  font-family: "Museo-700";
+  color: white;
+  font-size: 36px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  font-family: "Museo-300";
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border: 2px solid white;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background-color: white;
+  color: var(--chestnut);
+  transition: 0.3s;
+}
+
+.empty {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty p {
+  font-family: "Sinkin-Sans-SemiBold";
+  font-size: 24px;
+  color: var(--saddle-brown);
+}
+
+/* Main as Grid of Cards */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 24px;
+  color: white;
+}
+
+.card {
+  background-color: var(--chocolate);
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+}
+
+.card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  height: auto;
+  object-fit: cover;
+  background-color: var(--peach);
+  border: 1px solid white;
+}
+
+.card .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Sinkin-Sans-Regular";
+  font-size: 14px;
+  gap: 8px;
+}
+
+.card .info h2 {
+  font-size: inherit;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+dialog#obra-popup {
+  border: none;
+  border-radius: 8px;
+  min-width: 600px;
+  width: 75vw;
+  height: 90vh;
+  overflow: scroll;
+  margin: auto;
+  border: 1px solid var(--saddle-brown);
+  outline: none;
+}
+
+dialog#obra-popup .popup-content {
+  background-color: var(--peru);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  min-height: 100%;
+}
+
+dialog#obra-popup .popup-content img {
+  object-fit: cover;
+  background-color: var(--peach);
+  border: 1px solid white;
+}
+
+dialog#obra-popup .popup-content h2 {
+  font-family: "Museo-700";
+  font-size: 32px;
+  color: white;
+}
+
+dialog#obra-popup .popup-content h3 {
+  font-family: "Sinkin-Sans-Regular";
+  font-size: 16px;
+  color: white;
+}
+
+dialog#obra-popup .popup-content .button {
+  font-family: "Museo-300";
+  font-size: 18px;
+  color: var(--chestnut);
+  background-color: white;
+  border: 2px solid var(--chestnut);
+  min-width: 240px;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+}
+
+dialog#obra-popup::backdrop {
+  background: rgba(0, 0, 0, 0.5);
+}

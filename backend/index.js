@@ -39,22 +39,27 @@ function numero(data) {
     return true; // devuelve true al frontend
   } // cuando el backend recibe el evento modificarcolleccion, se ejecuta la funcion numero, que si data es true, lee el archivo de los ids en teeexto, y lo convierte de json a array y lo guarda en la variable contenido. luego la funcion push guarda en ls variable contenido que contiene el array del archivo de los ids el id que selecciono el frontend. luego se vuelve a convertir el archivo de los ids de array a json y se fuarda en la variable contenido, y luego esta variable se guarda en el archivo de los ids.
   else {
+else {
     let contenido = JSON.parse(
-      fs.readFileSync("../data/idcoleccion.json", "utf-8")
-    ); // lee el archivo de los ids lo convierte a array y lo guarda en la variable contenido.
+        fs.readFileSync("../data/idcoleccion.json", "utf-8")
+    ); // leo el archivo de ids y lo convierto en array
 
-    let indexNumero = () => {
-        for (let i = 0; i < contenido.length; i++) {
-            if (contenido[i].id === data.id) {
-                return i;
-            }
+    let resultado = [];
+
+    for (let i = 0; i < contenido.length; i++) {
+        if (contenido[i] !== data.id) {
+            resultado.push(contenido[i]);
         }
     }
 
-    contenido.splice(indexNumero, 1);
-    fs.writeFileSync("../data/idcoleccion.json", JSON.stringify(contenido, null, 2)); // guardo la variable id coleccionjson con el archivo que no agregue ningun id en el archivo de los ids
+    fs.writeFileSync(
+        "../data/idcoleccion.json",
+        JSON.stringify(resultado, null, 2)
+    ); // guardo el array actualizado en el archivo
 
-    return { enColección: false };
+    return true; // aviso al frontend que se pudo quitar
+}
+
   }
 }
 

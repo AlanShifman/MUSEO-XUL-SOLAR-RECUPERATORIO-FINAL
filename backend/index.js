@@ -42,9 +42,15 @@ function numero(data) {
     let contenido = JSON.parse(
       fs.readFileSync("../data/idcoleccion.json", "utf-8")
     ); // lee el archivo de los ids lo convierte a array y lo guarda en la variable contenido.
-    let indexNumero = contenido.findIndex((ids) => {
-        ids === data.id
-    });
+
+    let indexNumero = () => {
+        for (let i = 0; i < contenido.length; i++) {
+            if (contenido[i].id === data.id) {
+                return i;
+            }
+        }
+    }
+
     contenido.splice(indexNumero, 1);
     fs.writeFileSync("../data/idcoleccion.json", JSON.stringify(contenido, null, 2)); // guardo la variable id coleccionjson con el archivo que no agregue ningun id en el archivo de los ids
 

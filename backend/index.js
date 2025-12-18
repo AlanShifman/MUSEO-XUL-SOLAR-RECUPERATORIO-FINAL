@@ -39,7 +39,7 @@ function numero(data) {
     return true; // devuelve true al frontend
   } // cuando el backend recibe el evento modificarcolleccion, se ejecuta la funcion numero, que si data es true, lee el archivo de los ids en teeexto, y lo convierte de json a array y lo guarda en la variable contenido. luego la funcion push guarda en ls variable contenido que contiene el array del archivo de los ids el id que selecciono el frontend. luego se vuelve a convertir el archivo de los ids de array a json y se fuarda en la variable contenido, y luego esta variable se guarda en el archivo de los ids.
   else {
-else {
+    
     let contenido = JSON.parse(
         fs.readFileSync("../data/idcoleccion.json", "utf-8")
     ); // leo el archivo de ids y lo convierto en array

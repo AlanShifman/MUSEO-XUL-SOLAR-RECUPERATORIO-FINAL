@@ -45,7 +45,7 @@ function numero(data) {
 
     let indexNumero = () => { // es una variable que guarda una funcion que busca en el array de contenido la posicion del id que queremos eliminar
         for (let i = 0; i < contenido.length; i++) { // el for busca la posicion del id que quiero eliminar
-            if (contenido[i].id === data.id) { // si el id que mando el archivo es el mismo que mando el front end para eliminar
+            if (contenido[i].id === data.id) { // si el id del array es el mismo que mando el front end para eliminar
                 return i; // devuelvo la posicion del id que quiero eliminar
             }
         }

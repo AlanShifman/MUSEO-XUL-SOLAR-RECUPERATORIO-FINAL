@@ -29,29 +29,20 @@ function numero (data) { // data es el objeto que manda el frontend. tiene la in
 
         return true; // devuelve true al frontend
     } // cuando el backend recibe el evento modificarcolleccion, se ejecuta la funcion numero, que si data es true, lee el archivo de los ids en teeexto, y lo convierte de json a array y lo guarda en la variable contenido. luego la funcion push guarda en ls variable contenido que contiene el array del archivo de los ids el id que selecciono el frontend. luego se vuelve a convertir el archivo de los ids de array a json y se fuarda en la variable contenido, y luego esta variable se guarda en el archivo de los ids. 
-    else {
-    let contenido = JSON.parse(
-        fs.readFileSync("../data/idcoleccion.json", "utf-8") // convierto el archivo de los ids de json a array y lo guardo en la variable contenido
-    ); 
+   else {
+       
+    let resultado = []; // la variable resultado es para guardar los ids que no quiero borrar.
 
-
-    let resultado = [];
-
-    contenido.forEach(id => {
-        if (id !== data.id) {
-            resultado.push(id);
+    for (let i = 0; i < contenido.length; i++) { // for recorre el array de los ids en bucle, y i es el contador que aumenta uno por cada id que pase.
+        if (contenido[i] !== data.id) { // si el id no es el que quiero borrar lo guardo en la variable resultado, con todos los otros ids que no quiero eliminar.
+            resultado.push(contenido[i]); // guardo las obras que no quiero borrar en la variable resultado.
         }
-    }); // for each recorre el array de los ids (contenido) y si el id no es el que me llego del frontend, lo guardo en una nueva variable resultado, con todos los ids que no quiero eliminar.
-  
+    }
 
-    let idcoleccionjson = JSON.stringify(resultado, null, 2);
-    // convierte el array resultado a JSON (texto)
-
+    let idcoleccionjson = JSON.stringify(resultado, null, 2); // convierto el array con los ids que no borre en json para despues guardarlos en el archivo de ids.
     fs.writeFileSync("../data/idcoleccion.json", idcoleccionjson);
-    // guarda el archivo actualizado sin ese id
 
     return true;
-    // devuelve false al frontend indicando que se quitó de la colección
 }
 
     

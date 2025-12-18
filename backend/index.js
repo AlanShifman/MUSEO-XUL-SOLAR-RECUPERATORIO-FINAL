@@ -43,10 +43,10 @@ function numero(data) {
       fs.readFileSync("../data/idcoleccion.json", "utf-8")
     ); // lee el archivo de los ids lo convierte a array y lo guarda en la variable contenido.
 
-    let indexNumero = () => {
-        for (let i = 0; i < contenido.length; i++) {
-            if (contenido[i].id === data.id) {
-                return i;
+    let indexNumero = () => { // es una variable que guarda una funcion que busca en el array de contenido la posicion del id que queremos eliminar
+        for (let i = 0; i < contenido.length; i++) { // el for busca la posicion del id que quiero eliminar
+            if (contenido[i].id === data.id) { // si el id que mando el archivo es el mismo que mando el front end para eliminar
+                return i; // devuelvo la posicion del id que quiero eliminar
             }
         }
     }
@@ -54,7 +54,7 @@ function numero(data) {
 
     // Arrow function define el returneo de la función como el valor de la variable, en este caso la "i", que es el índice del id que quiero eliminar.
 
-    contenido.splice(indexNumero, 1);
+    contenido.splice(indexNumero, 1); // splice borra el id del array con los ids por su posicion, index numero es la posicion.
     fs.writeFileSync("../data/idcoleccion.json", JSON.stringify(contenido, null, 2)); // guardo la variable id coleccionjson con el archivo que no agregue ningun id en el archivo de los ids
 
     return { enColección: false };
